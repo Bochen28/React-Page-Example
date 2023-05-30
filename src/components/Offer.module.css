@@ -1,0 +1,22 @@
+.offer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 15rem;
+  background: #ffffff;
+  margin: 2rem;
+  transition: transform 0.5s;
+}
+
+.dot {
+  position: absolute;
+  top: -2.5%;
+  left: -2.5%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}

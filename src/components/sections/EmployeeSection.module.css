@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 5rem;
+  background: #ffffff;
+}
+
+.content {
+  width: 960px;
+  margin: auto;
+}
+
+.textContainer h1 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.employeeList {
+  display: flex;
+  flex-direction: column;
+}
+
+.employeeList li:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .content {
+    width: auto;
+    padding: 1rem;
+  }
+
+  .employeeList li:nth-of-type(even) {
+    flex-direction: row;
+    text-align: left;
+  }
+}
