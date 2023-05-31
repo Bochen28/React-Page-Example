@@ -1,8 +1,4 @@
-import Employee from "../Employee";
-import styles from "./EmployeeSection.module.css";
-
-function EmployeeSection() {
-  const employees = [
+const employees = [
     {
       firstName: "Jan",
       lastName: "Kowalski",
@@ -21,20 +17,4 @@ function EmployeeSection() {
     },
   ];
 
-  return (
-    <div id="about" className={styles.container}>
-      <div className={styles.content}>
-        <div className={styles.textContainer}>
-          <h1>Nasi specjaliści</h1>
-          <ul className={styles.employeeList}>
-            {employees.map((employee, index) => (
-              <Employee key={index} {...employee} />
-            ))}
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default EmployeeSection;
+export default employees;

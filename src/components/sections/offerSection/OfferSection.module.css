@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  width: 100%;
+  padding: 5rem 0 5rem 0;
+  background: #145da0;
+}
+
+.content {
+  width: 960px;
+  margin: auto;
+}
+
+.container h1 {
+  margin-left: 1rem;
+  color: white;
+}
+
+.offerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.offerList li {
+  margin-bottom: 1rem;
+  transition: transform 0.5s;
+}
+
+.offerList li:hover {
+  transform: scale(1.05);
+}

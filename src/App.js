@@ -1,6 +1,6 @@
-import MainSection from "./components/sections/MainSection";
-import EmployeeSection from "./components/sections/EmployeeSection";
-import OfferSection from "./components/sections/OfferSection";
+import MainSection from "./components/sections/mainSection/MainSection";
+import EmployeeSection from "./components/sections/employeeSection/EmployeeSection";
+import OfferSection from "./components/sections/offerSection/OfferSection";
 
 function App() {
   return (

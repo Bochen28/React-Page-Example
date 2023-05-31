@@ -1,5 +1,5 @@
 .container {
-  padding-bottom: 5rem;
+  padding: 0 0 5rem 0;
   background: #ffffff;
 }
 
@@ -9,8 +9,7 @@
 }
 
 .textContainer h1 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 0 5rem 0;
 }
 
 .employeeList {
